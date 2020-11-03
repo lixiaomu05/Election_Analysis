@@ -84,13 +84,13 @@ with open(file_to_save, "w") as txt_file:
 
     # Determine winning vote count and candidate
     # Determine if the votes is greater than the winning count.
-    if (votes > winning_count) and (vote_percentage > winning_percentage):
-         # If true then set winning_count = votes and winning_percent =
-         # vote_percentage.
-         winning_count = votes
-         winning_percentage = vote_percentage
-         # And, set the winning_candidate equal to the candidate's name.
-         winning_candidate = candidate_name
+        if (votes > winning_count) and (vote_percentage > winning_percentage):
+            # If true then set winning_count = votes and winning_percent =
+            # vote_percentage.
+            winning_count = votes
+            winning_percentage = vote_percentage
+            # And, set the winning_candidate equal to the candidate's name.
+            winning_candidate = candidate_name
 
 #  print out the winning candidate, vote count and percentage to terminal.
     winning_candidate_summary = (
