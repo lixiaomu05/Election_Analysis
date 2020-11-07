@@ -47,13 +47,16 @@ Upon analyzing the votes, the election shows that:
   - Charles Casper Stockham received 23.0% of votes and 85,213 number of votes.
   - Diana DeGette received 73.8% of votes and 272,892 number of votes.
   - Raymon Anthony Doane received 3.1% of votes and 11,606 number of votes.
-- Diana DeGatte was the winner of the election. She has 272,892 votes with winning percentage at 73.8%.
+- Diana DeGatte was the winner of the election. She had 272,892 votes with winning percentage at 73.8%.
 
-![](sreenshot/Election_Results_on_cmd.png)
+![](screenshot/Election_Results_on_cmd.png)
 
 ## Election Audit Summary
 This script can be modified for other elections through the examples below:
 
-First, we can add more information on the votes percentage in terms of total population to see the voting participation rate. We can add total population on all counties/ regions and calculate the participation rate by adding code “participating_rate = votes/ population”.
+First, we can add more information on the votes percentage in terms of total population of each county to see the voting participation rate. We can add total population on all counties or regions and calculate the participation rate by adding code “participating_rate = votes/ population”.
 
-Second, we can show the voting percentage on each candidate in each county. For example, we can show how many people voted for Diana in Denver. We can create an IF statement in the For loop. 
+Second, we can add more information on the candidate's background. Such information can include the candidate's education background, origin, professional experience, and so on. Adding this information can help to explain on why this candidate is winnning the election. We can add this information by using the candidate's name as variable to create a list. 
+
+Third, we can show the voting percentage on each candidate in each county. For example, we can show how many people voted for Diana in Denver. We can create an IF statement in the For loop.
+
